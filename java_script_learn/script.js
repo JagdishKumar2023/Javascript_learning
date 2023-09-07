@@ -12,7 +12,7 @@
 
 // console.log(z);
 
-// ====OPRATORS (heading)
+//====OPRATORS (heading)
 
 // let x = 5; //number
 // let y = "5"; //string
@@ -23,7 +23,7 @@
 // console.log(a+b) ;
 // console.log(a + " " + b);
 
-//let x = 5; //string
+// let x = 5; //string
 
 // let z = (x + 5) / 5;
 
@@ -35,11 +35,11 @@
 
 // console.log(x);
 
-//array
+//===array
 
 // let  = ["vishwajeet", "tom", "john"];
 
-//==== * IF ELSE CONDITION
+//====IF ELSE CONDITION
 
 // let age = 17;
 // let hasVotercard = "yes ";
@@ -64,7 +64,7 @@
 // // condition                   true      false
 // document.write(option);
 
-// ===JAVASCRIPT SWITCH
+//===JAVASCRIPT SWITCH
 
 // if input = 1, "y", "yes" output = continue...
 
@@ -87,7 +87,7 @@
 // } else if (input === "no");
 // document.write("End...");
 
-// === COMPARISON (SWITCH)
+//===COMPARISON (SWITCH)
 
 // switch (input) {
 //   case 1: // if(input === 1)
@@ -109,7 +109,7 @@
 //     document.write("Worng input");
 // }
 
-// WHILE LOOP (HEADING)
+//===WHILE LOOP (HEADING)
 
 // let counter = 12;
 
@@ -118,7 +118,7 @@
 //   counter++;
 // }
 
-// DO WHILE
+//===DO WHILE
 
 // do {
 //   document.write("techGun");
@@ -141,7 +141,7 @@
 //   document.write("techGun");
 // }
 
-//===BREAK CONTINUE AND NESTED LOOP
+// ===BREAK CONTINUE AND NESTED LOOP
 
 // for (let counter = 15; counter <= 21; counter++) {
 //   if (counter == 22) {
@@ -151,7 +151,7 @@
 //   document.write("<br>");
 // }
 
-//===CONTINUE
+// ===CONTINUE
 
 // for (let counter = 1; counter <= 10; counter++) {
 //   if (counter == 5) {
@@ -161,7 +161,7 @@
 //   document.write("<br>");
 // }
 
-//===NASTED LOOP
+// ===NASTED LOOP
 
 // for (let counter = 1; counter <= 10; counter++) {
 //   document.write(counter);
@@ -175,16 +175,142 @@
 
 // let age = prompt("Enter your age", 20);
 
-// if (age != null) {
+// if (age !== null) {
 //   document.write(`Your Age is ${age}`);
 // } else {
 //   document.write("Age field was Blank");
 // }
 
-let response = confirm("Are You sure, You want to  Deleted");
+// let response = confirm("Are You sure, You want to  Deleted");
 
-if (response) {
-  document.write("Deleted");
-} else {
-  document.write("Not Deleted");
-}
+// if (response) {
+//   document.write("Deleted");
+// } else {
+//   document.write("Not Deleted");
+// }
+
+//===DOUT SESSION
+
+// let counter = 1;
+// // counter = counter + 1;
+// counter++;
+// counter++;
+// // counter = counter - 1;
+// counter--;
+
+// for (let count_num = 10; count_num >= 1; count_num--) {
+//   console.log(count_num);
+// }
+
+// (dry run)
+
+//===TYPE CONVERTION
+
+// let type = "HI" + " GOOD" + " BYE";
+// console.log(type);
+// console.log(typeof type);
+
+// 1. Sting()
+// 2. Number()
+// 3. Boolean()
+
+// let Name = "sonu";
+// console.log(typeof Name);
+
+// let Newtype = String(type);
+// console.log(typeof Newtype);
+
+// let type = false;
+// console.log(typeof type); //old
+
+// let NewType = Number(type);
+// console.log(NewType);
+// console.log(typeof NewType); //New
+
+//===STRING MANUPULATION
+
+// space-between = // |  \t | \n |
+
+// let str = "Jagdish \n  kumar ";
+
+// let str = "Jagdish \t  kumar ";
+
+// let str = "Jagdish  kumar ";
+
+// let greek = `Hi ${str}`;
+
+// console.log(greek);
+
+//===CONCATINATE
+
+// let str = "Jagdish";
+
+// let str2 = "Kumar";
+
+// console.log(str + " " + str
+
+// let str = "Jagdish";
+
+// let str2 = "Kumar";
+
+// let str3 = str.concat(str2);
+// console.log(str3);
+
+//===Javascript is case sensetive (smal2);l is small or capital is captical)
+
+// let str = "vishwajeet";
+
+// if ("vishwajeet" == str) {
+//   console.log("Equal");
+// } else {
+//   console.log("Not Equal");
+// }
+
+//===SUBSTRING
+
+// let str = "This is javascript tutorial. Its is a good tutorial.";
+
+// let substring = str.substring(8, 18);
+
+// console.log(substring);
+
+//===POSITION
+
+// let str = "This is javascript tutorial. Its is a good tutorial.";
+
+// let Position = str.indexOf(is, 7);
+
+// console.log(POSITION);
+
+// let sonu = "my goal to achive a good job ";
+
+// let POSITION = sonu.indexOf("goal");
+
+// console.log(POSITION);
+
+//===CAPITAL OR SMALL LETTER
+
+// let str = "This is javascript tutorial. Its is a good tutorial.";
+
+// let trimedStr = str.toUpperCase();
+
+// console.log(str);
+// console.log(trimedStr);
+
+//==REPLACEMENT
+
+// let str = "This is javascript tutorial. Its is a good tutorial.";
+
+// let trimedStr = str.replace("good", "best");
+
+// console.log(str);
+// console.log(trimedStr);
+
+//===INDCLUDES
+
+// let str = "This is javascript tutorial. Its is a good tutorial.";
+
+// let trimedStr = str.includes("html");
+
+// console.log(str);
+// console.log(trimedStr);

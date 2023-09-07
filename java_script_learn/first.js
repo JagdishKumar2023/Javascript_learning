@@ -26,15 +26,15 @@ console.log(z);
 
 let myName = "z";
 
-// if (myNumber === 2) {
-//   console.log("number is 2");
-// } else if (myNumber === 3) {
-//   console.log("number is 3");
-// } else if (myNumber === 4) {
-//   console.log("number is 4");
-// } else {
-//   console.log("number is not defined");
-// }
+if (myNumber === 2) {
+  console.log("number is 2");
+} else if (myNumber === 3) {
+  console.log("number is 3");
+} else if (myNumber === 4) {
+  console.log("number is 4");
+} else {
+  console.log("number is not defined");
+}
 
 switch (myName) {
   case "x": {
