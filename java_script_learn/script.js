@@ -256,7 +256,7 @@
 // let str3 = str.concat(str2);
 // console.log(str3);
 
-//===Javascript is case sensetive (smal2);l is small or capital is captical)
+//===Javascript is case sensetive  small is small or capital is captical)
 
 // let str = "vishwajeet";
 
@@ -314,3 +314,145 @@
 
 // console.log(str);
 // console.log(trimedStr);
+
+//===INTERVIEW QUESTIONS (IMPORTANT)
+
+// true = 1
+// false = 0
+
+//==(DATA TYPE)
+
+// console.log(true + true);
+// console.log(false + true);
+// console.log(false - true);
+// Number;number
+// String; string
+// Boolean; boolean
+// undefined; undefined
+// Array; object
+// Object; object
+// null; object
+// console.log(typeof "");
+
+// let my_name = "jagdish kumar";
+// let my_city = "khandwa";
+
+// // console.log("my name is" + " " + my_name);
+
+// // literal template / string interpolation:-
+
+// console.log(`my name is ${my_name}, my city is ${my_city}`);
+
+// ===VARIABLE
+
+// let book1 = "Math";
+// let book2 = "physics";
+// let book3 = "Bio";
+// let book4 = "computer science";
+
+// console.log(book3);
+
+//===ARRAY(form basic)
+
+// let book = ["Math", "Physic", "Bio", "Computer science"];
+
+// let asset = [1, 3, 40.3, 100];
+
+// let book = new Array["maths", "Physic","Bio","Computer science"];
+
+// console.log(book);
+
+//===OPERATION ON ARRAY IN JAVASCRIPT
+
+//==(UNSHIFT)
+
+// let book = ["Maths", "Physics", "Bio", "Computer Science"];
+
+// book.unshift("Hindi");
+
+// console.log(book[2]);
+
+//==(POP) (LAST WALA REMOVE HO JAYGA)
+
+// let book = ["Maths", "Physics", "Bio", "Computer Science"];
+
+// book.pop();
+
+// console.log(book);
+
+//==(SPLICE)
+
+// let book = ["Maths", "Physic", "Bio", "Computer Science"];
+
+// book.splice(1, 2);
+
+// console.log(book);
+
+//==(ARRAY.ISARRAY)
+
+// let book = ["Maths", "Physics", "Bio", "Computer science"];
+
+// let book = "Maths";
+
+// console.log(Array.isArray(book));
+
+//==(WORDARRAY) (GAP BETWEEN WORDS) (-, 's' ,  )
+
+// let text = "This is a random text";
+
+// let wordarray = text.split("s");
+
+// console.log(wordarray);
+
+//==(CONCATINATE MULTIPLES ARRAY)
+
+// let book = ["Maths", "Physics", "Bio", "Computer Science"];
+
+// let book2 = ["Hindi", "English"];
+
+// let book3 = ["Punjabi", "Urdu"];
+
+// let NewBook = book.concat(book2, book3);
+
+// console.log(NewBook);
+
+//==(MULTI DIMENSION ARRAY)
+
+// let book = ["Math", "physics", "Bio", "Computer Science"];
+
+// let bookwithPages = [
+//   ["Math", ["300", "500"]],
+//   ["Physics", "500"],
+//   ["Bio", "400"],
+// ];
+
+// let fetch = bookwithPages[0][1];
+
+// console.log(fetch);
+
+//==(FOR LOOP ARRAY)
+
+// let book = ["Math", "Physics", "Bio", "Comupter Science"];
+
+// let booklength = book.length;
+
+// for (i = 0; i < booklength; i++) {
+//   console.log(`Element ${i} is ${book[i]} \n`);
+// }
+
+// book.forEach(myfu);
+
+// function myfu(value) {
+//   console.log(value);
+// }
+
+//===FUNCTION
+
+// function MulTable() {
+//   for (i = 1; i <= 10; i++) {
+//     document.write(`2 x ${i} = ${2 * i}`);
+//     document.write("<br><br>");
+//   }
+// }
+
+// MulTable();
