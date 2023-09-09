@@ -456,3 +456,59 @@
 // }
 
 // MulTable();
+
+//===PARAMETERS AND ARGUMENT
+
+// function MulTable(num) {
+//   for (i = 1; i < 11; i++) {
+//     document.write(`${num} x ${i} = ${num * i}`);
+//     document.write("<br>");
+//   }
+// }
+
+// MulTable(8);
+
+// document.write("<br>");
+
+// MulTable(5);
+
+// function add(num1, num2) {
+//   document.write(num1 + num2);
+// }
+
+// add(5, 7);
+
+//==( THE ARGUMENTS OBJECT )
+
+// function add() {
+//   console.log(arguments.length);
+// }
+
+// add(5, 7);
+// add(5, 7, 8);
+// add(5, 7, 2, 6);
+
+// function add() {
+//   console.log(arguments[0]);
+// }
+
+// add(5, 7);
+// add(5, 7, 8);
+// add(5, 7, 2, 6);
+
+function add() {
+  if (arguments.length === 0) {
+    console.log("No arugments passed !");
+  } else {
+    let sum = 0; //2
+    for (let i = 0; i < arguments.length; i++) {
+      sum = sum + arguments[i];
+    }
+    console.log(sum);
+  }
+}
+
+let addition = add;
+
+addition(5);
+add(5, 7, 10);
