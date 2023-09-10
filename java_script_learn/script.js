@@ -370,7 +370,7 @@
 
 // book.unshift("Hindi");
 
-// console.log(book[2]);
+// console.log(book[1]);
 
 //==(POP) (LAST WALA REMOVE HO JAYGA)
 
@@ -489,26 +489,90 @@
 // add(5, 7, 2, 6);
 
 // function add() {
-//   console.log(arguments[0]);
+// console.log(arguments[0]);
 // }
 
 // add(5, 7);
 // add(5, 7, 8);
 // add(5, 7, 2, 6);
 
-function add() {
-  if (arguments.length === 0) {
-    console.log("No arugments passed !");
-  } else {
-    let sum = 0; //2
-    for (let i = 0; i < arguments.length; i++) {
-      sum = sum + arguments[i];
-    }
-    console.log(sum);
-  }
-}
+//==Lets add funtion into variable (arguments)
 
-let addition = add;
+// function add() {
+//   if (arguments.length === 0) {
+//     console.log("No arugments passed !");
+//   } else {
+//     let sum = 0; //2
+//     for (let i = 0; i < arguments.length; i++) {
+//       sum = sum + arguments[i];
+//     }
+//     console.log(sum);
+//   }
+// }
 
-addition(5);
-add(5, 7, 10);
+// let addition = add;
+
+// addition(5);
+// add(5, 7, 10);
+
+//===RETURN VALUE
+
+// function add(a, b) {
+//   let d = [2, 3, 4, 6];
+//   return d;
+// }
+
+// let c = add(5, 5);
+
+// document.write(c);
+
+//==(Campare Return)
+
+// function compare(a, b) {
+//   if (a > b) {
+//     return 1;
+//   } else if (b > a) {
+//     return -1;
+//   } else {
+//     return 0;
+//   }
+// }
+
+// let c = compare(5, 5);
+
+// document.write(c);
+
+//===GOBAL VARIABLE VS LOCAL VARIABLE
+
+// let car = "Audi"; //Gobal Variable
+
+// function add() {
+//   let result = 13; //Local Variable
+//   console.log(result);
+// }
+
+// function sub() {
+//   let result = 20;
+//   console.log(result);
+// }
+
+// add();
+// sub();
+
+//===ANONYMOUS FUNCTIONS
+
+// let show = function () {
+//   console.log("Hello World!");
+// };
+
+// show();
+
+// function show() {
+//   console.log("Hello!");
+// }
+
+// setTimeout(show, 2000); // 2000 Miliseconds
+
+// setTimeout(function () {
+//   console.log("Hello!");
+// }, 2000); // 2000 Miliseconds
