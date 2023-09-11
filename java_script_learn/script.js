@@ -576,3 +576,62 @@
 // setTimeout(function () {
 //   console.log("Hello!");
 // }, 2000); // 2000 Miliseconds
+
+//===IMMEDIATELY INVOKED FUNCTION
+
+// let string = "hello";
+
+// (function () {
+//   let string = "Hello";
+//   console.log(string);
+//   alert(string);
+// })();
+
+// (function () {
+//   let msg = "Hello third party";
+
+//   function greet() {
+//     console.log(msg);
+//   }
+
+//   greet();
+// })();
+
+//===OBJECT PROPERTIES
+
+// let person = {
+//   firstName: "Jagdish",
+//   lastName: "Kumar",
+// };
+
+// person.age = 25;
+
+// person.firstName = "Jagdish";
+
+// delete person.lastName;
+
+// console.log("age" in person);
+
+//==(FOR IN LOOP)
+
+// let person = {
+//   firstName: "Jagdish",
+//   lastName: "Kumar",
+// };
+
+// person.age = 25;
+
+// for (let key in person) {
+//   console.log(key);
+// }
+
+// let person = {
+//   firstName: "Jagdish",
+//   lastName: "Kumar",
+// };
+
+// person.age = 25;
+
+// for (let key in person) {
+//   console.log(key + ": " + person[key]);
+// }
