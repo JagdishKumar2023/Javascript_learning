@@ -612,26 +612,41 @@
 
 // console.log("age" in person);
 
-//==(FOR IN LOOP)
+// ==(FOR IN LOOP)
 
-// let person = {
-//   firstName: "Jagdish",
-//   lastName: "Kumar",
-// };
+let person = {
+  firstName: "Jagdish",
+  lastName: "Kumar",
+};
 
-// person.age = 25;
+person.age = 25;
 
-// for (let key in person) {
-//   console.log(key);
-// }
+for (let key in person) {
+  console.log(key);
+}
 
-// let person = {
-//   firstName: "Jagdish",
-//   lastName: "Kumar",
-// };
+let person = {
+  firstName: "Jagdish",
+  lastName: "Kumar",
+};
 
-// person.age = 25;
+person.age = 25;
 
-// for (let key in person) {
-//   console.log(key + ": " + person[key]);
-// }
+for (let key in person) {
+  console.log(key + ": " + person[key]);
+}
+
+let person = {
+  firstName: "Jagdish",
+  lastName: "Kumar",
+  sayHello() {
+    console.log("Hello ! I have a " + car.brand + " car");
+  },
+};
+
+let car = {
+  brand: "Tata",
+  model: "Safari",
+};
+
+person.sayHello();
