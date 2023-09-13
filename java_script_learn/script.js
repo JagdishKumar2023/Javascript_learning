@@ -41,7 +41,7 @@
 
 //====IF ELSE CONDITION
 
-// let age = 17;
+// let age = 12;
 // let hasVotercard = "yes ";
 
 // if (age >= 14 && hasVotercard == "Yes") {
@@ -111,7 +111,7 @@
 
 //===WHILE LOOP (HEADING)
 
-// let counter = 12;
+// let counter = 4;
 
 // while (counter <= 16) {
 //   document.write("techgun");
@@ -123,7 +123,7 @@
 // do {
 //   document.write("techGun");
 //   counter++;
-// } while (counter <= 15);
+// } while (counter <= 20);
 
 // let counter = 1;
 // let sum = 0;
@@ -168,7 +168,7 @@
 //   document.write("<br>");
 
 //   for (let counter2 = 1; counter2 < 3; counter2++) {
-//     document.write("techgun");
+//     document.write("counter2");
 //     document.write("<br>");
 //   }
 // }
@@ -247,7 +247,7 @@
 
 // let str2 = "Kumar";
 
-// console.log(str + " " + str
+// console.log(str + " " + str);
 
 // let str = "Jagdish";
 
@@ -278,7 +278,7 @@
 
 // let str = "This is javascript tutorial. Its is a good tutorial.";
 
-// let Position = str.indexOf(is, 7);
+// let POSITION = str.indexOf(is);
 
 // console.log(POSITION);
 
@@ -614,39 +614,96 @@
 
 // ==(FOR IN LOOP)
 
-let person = {
-  firstName: "Jagdish",
-  lastName: "Kumar",
-};
+// let person = {
+//   firstName: "Jagdish",
+//   lastName: "Kumar",
+// };
 
-person.age = 25;
+// person.age = 25;
 
-for (let key in person) {
-  console.log(key);
+// for (let key in person) {
+//   console.log(key);
+// }
+
+// let person = {
+//   firstName: "Jagdish",
+//   lastName: "Kumar",
+// };
+
+// person.age = 25;
+
+// for (let key in person) {
+//   console.log(key + ": " + person[key]);
+// }
+
+//===(KEYWORD)
+
+// let person = {
+//   firstName: "Jagdish",
+//   lastName: "Kumar",
+//   sayHello() {
+//     console.log(
+//       "Hello ! I am " + this.firstName + " and  I have a " + car.brand
+//     );
+//   }
+// };
+
+// let car = {
+//   brand: "Tata car",
+//   model: "Safari",
+// };
+
+// person.sayHello();
+
+//===MATHS OBJECT(ROUND)
+
+// var x = Math.round(5.7);
+
+// console.log(x);
+
+//==(Math.ceil)
+
+// var x = Math.ceil(4.9);
+
+// console.log(x);
+
+//==(TRUNC)
+
+// var x = Math.trunc(7.2);
+
+// console.log(x);
+
+//==(Power)
+
+// var x = Math.pow(2, 5);
+
+// console.log(x);
+
+//==(square Root)
+
+// var z = Math.sqrt(10);
+
+// console.log(z);
+
+//==(Max and Min Number)
+
+// var x = Math.max(4, 50, 40);
+
+// console.log(x);
+
+// var y = Math.min(40, 20, 5, 70);
+
+// console.log(y);
+
+//===GENERATE RANDOM NUMBER
+
+// let y = Math.floor(Math.random() * 10); // 1 to 10
+
+// console.log(y);
+
+function getRandom(min, max) {
+  let x = Math.floor(Math.random() * (max - min + 1)) + min;
+  return x;
 }
 
-let person = {
-  firstName: "Jagdish",
-  lastName: "Kumar",
-};
-
-person.age = 25;
-
-for (let key in person) {
-  console.log(key + ": " + person[key]);
-}
-
-let person = {
-  firstName: "Jagdish",
-  lastName: "Kumar",
-  sayHello() {
-    console.log("Hello ! I have a " + car.brand + " car");
-  },
-};
-
-let car = {
-  brand: "Tata",
-  model: "Safari",
-};
-
-person.sayHello();
+console.log(getRandom(11, 30));
