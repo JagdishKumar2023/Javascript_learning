@@ -1,165 +1,165 @@
-// let x;
+// // let x;
 
-// x = 10;
+// // x = 10;
 
-// let y;
+// // let y;
 
-// y = 3;
+// // y = 3;
 
-// let z;
+// // let z;
 
-// z = x + y;
+// // z = x + y;
 
-// console.log(z);
+// // console.log(z);
 
-//====OPRATORS (heading)
+// //====OPRATORS (heading)
 
-// let x = 5; //number
-// let y = "5"; //string
+// // let x = 5; //number
+// // let y = "5"; //string
 
-// let a = "hello";
-// let b = "World";
+// // let a = "hello";
+// // let b = "World";
 
-// console.log(a+b) ;
-// console.log(a + " " + b);
+// // console.log(a+b) ;
+// // console.log(a + " " + b);
 
-// let x = 5; //string
+// // let x = 5; //string
 
-// let z = (x + 5) / 5;
+// // let z = (x + 5) / 5;
 
-// console.log(z);
+// // console.log(z);
 
-//===boolen : true or fales
+// //===boolen : true or fales
 
-// let x = 2 > 3;
+// // let x = 2 > 3;
 
-// console.log(x);
+// // console.log(x);
 
-//===array
+// //===array
 
-// let  = ["vishwajeet", "tom", "john"];
+// // let  = ["vishwajeet", "tom", "john"];
 
-//====IF ELSE CONDITION
+// //====IF ELSE CONDITION
 
-// let age = 12;
-// let hasVotercard = "yes ";
+// // let age = 12;
+// // let hasVotercard = "yes ";
 
-// if (age >= 14 && hasVotercard == "Yes") {
-//   alert("You can vote!");
-// } else if (age >= 14 && hasVotercard != "Yes") {
-//   alert("Get Your voter id card !");
-// } else {
-//   alert("you cannot Vote!");
-// }
+// // if (age >= 14 && hasVotercard == "Yes") {
+// //   alert("You can vote!");
+// // } else if (age >= 14 && hasVotercard != "Yes") {
+// //   alert("Get Your voter id card !");
+// // } else {
+// //   alert("you cannot Vote!");
+// // }
 
-// let isloggedin = 0; //if 0 loggedout if 1 login
+// // let isloggedin = 0; //if 0 loggedout if 1 login
 
-// if (isloggedin == 0) {
-//   document.write("login");
-// } else {
-//   document.write("logout");
-// }
+// // if (isloggedin == 0) {
+// //   document.write("login");
+// // } else {
+// //   document.write("logout");
+// // }
 
-// let option = isloggedin == 0 ? "Logout" : "Login";
-// // condition                   true      false
-// document.write(option);
+// // let option = isloggedin == 0 ? "Logout" : "Login";
+// // // condition                   true      false
+// // document.write(option);
 
-//===JAVASCRIPT SWITCH
+// //===JAVASCRIPT SWITCH
 
-// if input = 1, "y", "yes" output = continue...
+// // if input = 1, "y", "yes" output = continue...
 
-// if input = 0, "n" , "no" output = End ...
+// // if input = 0, "n" , "no" output = End ...
 
-// let input;
+// // let input;
 
-// input = "y";
+// // input = "y";
 
-// if (input === 1) {
-//   document.write("continue...");
-// } else if (input === "y") {
-//   document.write("continue...");
-// } else if (input === "yes") {
-//   document.write("continue...");
-// } else if (input === "0") {
-//   document.write("End...");
-// } else if (input === "n") {
-//   document.write("End...");
-// } else if (input === "no");
-// document.write("End...");
+// // if (input === 1) {
+// //   document.write("continue...");
+// // } else if (input === "y") {
+// //   document.write("continue...");
+// // } else if (input === "yes") {
+// //   document.write("continue...");
+// // } else if (input === "0") {
+// //   document.write("End...");
+// // } else if (input === "n") {
+// //   document.write("End...");
+// // } else if (input === "no");
+// // document.write("End...");
 
-//===COMPARISON (SWITCH)
+// //===COMPARISON (SWITCH)
 
-// switch (input) {
-//   case 1: // if(input === 1)
-//     document.write("continue...");
-//     break;
-//   case "y": // if (input === "y")
-//     document.write("continue...");
-//     break;
-//   case 0:
-//     document.write("End...");
-//     break;
-//   case "n":
-//     document.write("End...");
-//     break;
-//   case "no":
-//     document.write("End...");
-//     break;
-//   default:
-//     document.write("Worng input");
-// }
+// // switch (input) {
+// //   case 1: // if(input === 1)
+// //     document.write("continue...");
+// //     break;
+// //   case "y": // if (input === "y")
+// //     document.write("continue...");
+// //     break;
+// //   case 0:
+// //     document.write("End...");
+// //     break;
+// //   case "n":
+// //     document.write("End...");
+// //     break;
+// //   case "no":
+// //     document.write("End...");
+// //     break;
+// //   default:
+// //     document.write("Worng input");
+// // }
 
-//===WHILE LOOP (HEADING)
+// //===WHILE LOOP (HEADING)
 
-// let counter = 4;
+// // let counter = 4;
 
-// while (counter <= 16) {
-//   document.write("techgun");
-//   counter++;
-// }
+// // while (counter <= 16) {
+// //   document.write("techgun");
+// //   counter++;
+// // }
 
-//===DO WHILE
+// //===DO WHILE
 
-// do {
-//   document.write("techGun");
-//   counter++;
-// } while (counter <= 20);
+// // do {
+// //   document.write("techGun");
+// //   counter++;
+// // } while (counter <= 20);
 
-// let counter = 1;
-// let sum = 0;
+// // let counter = 1;
+// // let sum = 0;
 
-// while (counter <= 1000) {
-//   if (counter % 2 == 0) {
-//     sum = sum + counter;
-//   }
-//   counter++;
-// }
+// // while (counter <= 1000) {
+// //   if (counter % 2 == 0) {
+// //     sum = sum + counter;
+// //   }
+// //   counter++;
+// // }
 
-// document.write(sum);
+// // document.write(sum);
 
-// for (let counter = 4; counter <= 9; counter++) {
-//   document.write("techGun");
-// }
+// // for (let counter = 4; counter <= 9; counter++) {
+// //   document.write("techGun");
+// // }
 
-// ===BREAK CONTINUE AND NESTED LOOP
+// // ===BREAK CONTINUE AND NESTED LOOP
 
-// for (let counter = 15; counter <= 21; counter++) {
-//   if (counter == 22) {
-//     break;
-//   }
-//   document.write(counter);
-//   document.write("<br>");
-// }
+// // for (let counter = 15; counter <= 21; counter++) {
+// //   if (counter == 22) {
+// //     break;
+// //   }
+// //   document.write(counter);
+// //   document.write("<br>");
+// // }
 
-// ===CONTINUE
+// // ===CONTINUE
 
-// for (let counter = 1; counter <= 10; counter++) {
-//   if (counter == 5) {
-//     continue;
-//   }
-//   document.write(counter);
-//   document.write("<br>");
-// }
+// // for (let counter = 1; counter <= 10; counter++) {
+// //   if (counter == 5) {
+// //     continue;
+// //   }
+// //   document.write(counter);
+// //   document.write("<br>");
+// // }
 
 // ===NASTED LOOP
 
@@ -189,7 +189,7 @@
 //   document.write("Not Deleted");
 // }
 
-//===DOUT SESSION
+// ===DOUT SESSION
 
 // let counter = 1;
 // // counter = counter + 1;
@@ -204,7 +204,7 @@
 
 // (dry run)
 
-//===TYPE CONVERTION
+// ===TYPE CONVERTION
 
 // let type = "HI" + " GOOD" + " BYE";
 // console.log(type);
@@ -227,7 +227,7 @@
 // console.log(NewType);
 // console.log(typeof NewType); //New
 
-//===STRING MANUPULATION
+// ===STRING MANUPULATION
 
 // space-between = // |  \t | \n |
 
@@ -241,7 +241,7 @@
 
 // console.log(greek);
 
-//===CONCATINATE
+// ===CONCATINATE
 
 // let str = "Jagdish";
 
@@ -256,7 +256,7 @@
 // let str3 = str.concat(str2);
 // console.log(str3);
 
-//===Javascript is case sensetive  small is small or capital is captical)
+// ===Javascript is case sensetive  small is small or capital is captical)
 
 // let str = "vishwajeet";
 
@@ -266,7 +266,7 @@
 //   console.log("Not Equal");
 // }
 
-//===SUBSTRING
+// ===SUBSTRING
 
 // let str = "This is javascript tutorial. Its is a good tutorial.";
 
@@ -274,7 +274,7 @@
 
 // console.log(substring);
 
-//===POSITION
+// ===POSITION
 
 // let str = "This is javascript tutorial. Its is a good tutorial.";
 
@@ -288,7 +288,7 @@
 
 // console.log(POSITION);
 
-//===CAPITAL OR SMALL LETTER
+// ===CAPITAL OR SMALL LETTER
 
 // let str = "This is javascript tutorial. Its is a good tutorial.";
 
@@ -297,7 +297,7 @@
 // console.log(str);
 // console.log(trimedStr);
 
-//==REPLACEMENT
+// ==REPLACEMENT
 
 // let str = "This is javascript tutorial. Its is a good tutorial.";
 
@@ -306,7 +306,7 @@
 // console.log(str);
 // console.log(trimedStr);
 
-//===INDCLUDES
+// ===INDCLUDES
 
 // let str = "This is javascript tutorial. Its is a good tutorial.";
 
@@ -315,12 +315,12 @@
 // console.log(str);
 // console.log(trimedStr);
 
-//===INTERVIEW QUESTIONS (IMPORTANT)
+// ===INTERVIEW QUESTIONS (IMPORTANT)
 
 // true = 1
 // false = 0
 
-//==(DATA TYPE)
+// ==(DATA TYPE)
 
 // console.log(true + true);
 // console.log(false + true);
@@ -352,7 +352,7 @@
 
 // console.log(book3);
 
-//===ARRAY(form basic)
+// ===ARRAY(form basic)
 
 // let book = ["Math", "Physic", "Bio", "Computer science"];
 
@@ -362,9 +362,9 @@
 
 // console.log(book);
 
-//===OPERATION ON ARRAY IN JAVASCRIPT
+// ===OPERATION ON ARRAY IN JAVASCRIPT
 
-//==(UNSHIFT)
+// ==(UNSHIFT)
 
 // let book = ["Maths", "Physics", "Bio", "Computer Science"];
 
@@ -372,7 +372,7 @@
 
 // console.log(book[1]);
 
-//==(POP) (LAST WALA REMOVE HO JAYGA)
+// ==(POP) (LAST WALA REMOVE HO JAYGA)
 
 // let book = ["Maths", "Physics", "Bio", "Computer Science"];
 
@@ -380,7 +380,7 @@
 
 // console.log(book);
 
-//==(SPLICE)
+// ==(SPLICE)
 
 // let book = ["Maths", "Physic", "Bio", "Computer Science"];
 
@@ -388,7 +388,7 @@
 
 // console.log(book);
 
-//==(ARRAY.ISARRAY)
+// ==(ARRAY.ISARRAY)
 
 // let book = ["Maths", "Physics", "Bio", "Computer science"];
 
@@ -396,7 +396,7 @@
 
 // console.log(Array.isArray(book));
 
-//==(WORDARRAY) (GAP BETWEEN WORDS) (-, 's' ,  )
+// ==(WORDARRAY) (GAP BETWEEN WORDS) (-, 's' ,  )
 
 // let text = "This is a random text";
 
@@ -404,7 +404,7 @@
 
 // console.log(wordarray);
 
-//==(CONCATINATE MULTIPLES ARRAY)
+// ==(CONCATINATE MULTIPLES ARRAY)
 
 // let book = ["Maths", "Physics", "Bio", "Computer Science"];
 
@@ -416,7 +416,7 @@
 
 // console.log(NewBook);
 
-//==(MULTI DIMENSION ARRAY)
+// ==(MULTI DIMENSION ARRAY)
 
 // let book = ["Math", "physics", "Bio", "Computer Science"];
 
@@ -430,7 +430,7 @@
 
 // console.log(fetch);
 
-//==(FOR LOOP ARRAY)
+// ==(FOR LOOP ARRAY)
 
 // let book = ["Math", "Physics", "Bio", "Comupter Science"];
 
@@ -446,7 +446,7 @@
 //   console.log(value);
 // }
 
-//===FUNCTION
+// ===FUNCTION
 
 // function MulTable() {
 //   for (i = 1; i <= 10; i++) {
@@ -457,7 +457,7 @@
 
 // MulTable();
 
-//===PARAMETERS AND ARGUMENT
+// ===PARAMETERS AND ARGUMENT
 
 // function MulTable(num) {
 //   for (i = 1; i < 11; i++) {
@@ -478,7 +478,7 @@
 
 // add(5, 7);
 
-//==( THE ARGUMENTS OBJECT )
+// ==( THE ARGUMENTS OBJECT )
 
 // function add() {
 //   console.log(arguments.length);
@@ -496,7 +496,7 @@
 // add(5, 7, 8);
 // add(5, 7, 2, 6);
 
-//==Lets add funtion into variable (arguments)
+// ==Lets add funtion into variable (arguments)
 
 // function add() {
 //   if (arguments.length === 0) {
@@ -515,7 +515,7 @@
 // addition(5);
 // add(5, 7, 10);
 
-//===RETURN VALUE
+// ===RETURN VALUE
 
 // function add(a, b) {
 //   let d = [2, 3, 4, 6];
@@ -526,7 +526,7 @@
 
 // document.write(c);
 
-//==(Campare Return)
+// ==(Campare Return)
 
 // function compare(a, b) {
 //   if (a > b) {
@@ -542,7 +542,7 @@
 
 // document.write(c);
 
-//===GOBAL VARIABLE VS LOCAL VARIABLE
+// ===GOBAL VARIABLE VS LOCAL VARIABLE
 
 // let car = "Audi"; //Gobal Variable
 
@@ -559,7 +559,7 @@
 // add();
 // sub();
 
-//===ANONYMOUS FUNCTIONS
+// ===ANONYMOUS FUNCTIONS
 
 // let show = function () {
 //   console.log("Hello World!");
@@ -577,7 +577,7 @@
 //   console.log("Hello!");
 // }, 2000); // 2000 Miliseconds
 
-//===IMMEDIATELY INVOKED FUNCTION
+// ===IMMEDIATELY INVOKED FUNCTION
 
 // let string = "hello";
 
@@ -597,7 +597,7 @@
 //   greet();
 // })();
 
-//===OBJECT PROPERTIES
+// ===OBJECT PROPERTIES
 
 // let person = {
 //   firstName: "Jagdish",
@@ -636,7 +636,7 @@
 //   console.log(key + ": " + person[key]);
 // }
 
-//===(KEYWORD)
+// ===(KEYWORD)
 
 // let person = {
 //   firstName: "Jagdish",
@@ -655,37 +655,37 @@
 
 // person.sayHello();
 
-//===MATHS OBJECT(ROUND)
+// ===MATHS OBJECT(ROUND)
 
 // var x = Math.round(5.7);
 
 // console.log(x);
 
-//==(Math.ceil)
+// ==(Math.ceil)
 
 // var x = Math.ceil(4.9);
 
 // console.log(x);
 
-//==(TRUNC)
+// ==(TRUNC)
 
 // var x = Math.trunc(7.2);
 
 // console.log(x);
 
-//==(Power)
+// ==(Power)
 
 // var x = Math.pow(2, 5);
 
 // console.log(x);
 
-//==(square Root)
+// ==(square Root)
 
 // var z = Math.sqrt(10);
 
 // console.log(z);
 
-//==(Max and Min Number)
+// ==(Max and Min Number)
 
 // var x = Math.max(4, 50, 40);
 
@@ -695,15 +695,109 @@
 
 // console.log(y);
 
-//===GENERATE RANDOM NUMBER
+// ===GENERATE RANDOM NUMBER
 
 // let y = Math.floor(Math.random() * 10); // 1 to 10
 
 // console.log(y);
 
-function getRandom(min, max) {
-  let x = Math.floor(Math.random() * (max - min + 1)) + min;
-  return x;
-}
+// function getRandom(min, max) {
+//   let x = Math.floor(Math.random() * (max - min + 1)) + min;
+//   return x;
+// }
 
-console.log(getRandom(11, 30));
+// // console.log(getRandom(11, 30));
+
+// function addNumber(a, b) {
+//   // here a and b are parameters
+//   let c = a + b;
+//   return c;
+// }
+// console.log(addNumber(2, 3)); // here 2 and 3 are arguments
+
+// function subNumber(a, b) {
+//   let c = a - b;
+//   console.log(c);
+// }
+
+// subNumber(5, 3);
+
+// (function iife(a, b) {
+//   console.log(a + b);
+// })(3, 2);
+
+//===INTERVIEW QUESTION
+
+// let obj_user_profile = {
+//   user_name: "jagdish", // key : value
+//   age: 23,
+//   address: {
+//     city: "khandwa",
+//     state: "MP",
+//     country: {
+//       country_code: +91,
+//     },
+//   },
+// };
+// console.log(obj_user_profile.user_name);
+
+// console.log(obj_user_profile.address.city);
+
+// console.log(obj_user_profile.address.country.country_code);
+
+// let {
+//   // destructuring
+//   address: {
+//     country: { country_code },
+//   },
+// } = obj_user_profile;
+
+// console.log(country_code);
+
+//===DATE OBJECT
+
+// let x = new Date ();
+
+// let x = new Date("September 13, 2023 11:14:33");
+
+// // console.log(x.getTime());
+
+// // x.setSeconds(3);
+
+// // x.setHours(10);
+
+// console.log(x);
+
+//==DATE TYPE==
+
+// let x = new Date("September 13, 2023 11:12:33");
+
+// let y = x.setDate(x.getDate() + 17);
+
+// console.log(x);
+
+// let x = new Date("september 15, 2023 11:49:20");
+
+// x.setDate(x.getDate() + 30);
+
+// console.log(x);
+
+// let x = new Date("September 13, 2023 11:12:55");
+
+// let y = new Date("September 13, 2023 12:14:20");
+
+// y.setDate(x.getDate() + 40);
+
+// console.log(x);
+// console.log(y);
+
+let x = new Date();
+let y = new Date();
+
+if (y > x) {
+  console.log("x is past date");
+} else if (x > y) {
+  console.log("x is future date");
+} else {
+  console.log("x is same date");
+}
